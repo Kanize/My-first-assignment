@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Start */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+}
+ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+.btn button{
+    background-color:#1D4ED8 ;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+}
+/* Hero section start */
+.Hero-parent{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+
+    text-align:center;
+    
+}
+.hero-text{
+   
+}
